@@ -11,9 +11,9 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
-const bigNumber = 876563563653557n
+// const bigNumber = 876563563653557n
 
 
 
@@ -21,9 +21,15 @@ const bigNumber = 876563563653557n
 
 // Array, Objects, Functions
 
-const heroes = [Superman.Batman,Ironman]
+const heroes = ["Superman","Batman","Ironman"];
 let myObj = {
     name: "Jatin",
     age : 20,
     
 }
+
+const myfunction = function(){
+    console.log("hello")
+}
+
+console.log(typeof bigNumber);
