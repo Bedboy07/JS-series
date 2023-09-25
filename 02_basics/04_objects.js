@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() // singleton object
+const tinderUser = {} // non singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -9,7 +9,7 @@ tinderUser.isLoggedIn = false
 
 const regularUser = {
     email: "some@gmail.com",
-    fullname: {
+    fullname: { // declaring object in an object
         userfullname: {
             firstname: "hitesh",
             lastname: "choudhary"
@@ -66,7 +66,6 @@ const course = {
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
 
 // {
 //     "name": "hitesh",
